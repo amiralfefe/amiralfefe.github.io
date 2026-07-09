@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Fayssal ABDALLAH HASSAN, Data Scientist / Data Analyst Junior. Projets data, machine learning, computer vision et applications analytiques.">
+  <title>Fayssal ABDALLAH HASSAN | Data Scientist / Data Analyst Junior</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+      <span class="brand-mark" aria-hidden="true">FA</span>
+      <span>Fayssal ABDALLAH HASSAN</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Navigation principale" data-nav>
+      <a href="#apropos">À propos</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Portfolio data science</p>
+        <h1>Fayssal ABDALLAH HASSAN</h1>
+        <p class="hero-title">Data Scientist / Data Analyst Junior</p>
+        <p class="hero-copy">
+          Je construis des analyses, des modèles de machine learning et des applications data utiles,
+          avec une attention particulière pour la vision par ordinateur, les données publiques et
+          les parcours utilisateurs clairs.
+        </p>
+        <div class="hero-actions" aria-label="Actions principales">
+          <a class="btn btn-primary" href="#projets">Voir les projets</a>
+          <a class="btn btn-secondary" href="https://github.com/amiralfefe" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="mailto:fayssal_abdallah@outlook.fr">Contact</a>
+        </div>
+      </div>
+
+      <div class="hero-stats" aria-label="Domaines de travail">
+        <div>
+          <span>Computer vision</span>
+          <strong>Images médicales</strong>
+        </div>
+        <div>
+          <span>Data apps</span>
+          <strong>FastAPI & Streamlit</strong>
+        </div>
+        <div>
+          <span>Analyse</span>
+          <strong>ML & interprétation</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="apropos">
+      <div class="section-inner two-column">
+        <div class="section-kicker">À propos</div>
+        <div>
+          <h2>Un profil data junior orienté impact, rigueur et produit.</h2>
+          <p>
+            Mon travail se situe entre analyse de données, machine learning et mise en forme
+            d'outils exploitables. J'aime transformer une question métier ou scientifique en
+            pipeline lisible : collecte, préparation, modélisation, évaluation, restitution.
+          </p>
+          <p>
+            Mes projets V1 couvrent la classification d'images médicales, l'analyse de données
+            publiques et la construction d'applications pour rendre les résultats accessibles.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="competences">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div class="section-kicker">Compétences</div>
+          <h2>Une stack sobre pour analyser, modéliser et livrer.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Data analysis</h3>
+            <p>Exploration, nettoyage, visualisation, synthèse et lecture critique des données.</p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>Data visualisation</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Machine learning</h3>
+            <p>Benchmarks de modèles, protocoles d'évaluation et analyse d'erreurs sans sur-promesse.</p>
+            <ul class="tag-list">
+              <li>Scikit-learn</li>
+              <li>Deep learning</li>
+              <li>Évaluation</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Computer vision</h3>
+            <p>Classification d'images, jeux de données médicaux et interprétation type Grad-CAM.</p>
+            <ul class="tag-list">
+              <li>Images médicales</li>
+              <li>Grad-CAM</li>
+              <li>Benchmark</li>
+            </ul>
+          </article>
+
+          <article class="skill-card">
+            <h3>Data products</h3>
+            <p>Interfaces légères, API et prototypes pour rendre une analyse utilisable rapidement.</p>
+            <ul class="tag-list">
+              <li>FastAPI</li>
+              <li>Streamlit</li>
+              <li>HTML/CSS/JS</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projets">
+      <div class="section-inner">
+        <div class="section-heading">
+          <div class="section-kicker">Projets</div>
+          <h2>Trois axes de travail pour cette première version.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-media project-media-cells" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">Computer vision</p>
+              <h3>R.C.C.I.A</h3>
+              <p>
+                Classification d'images cellulaires normal vs leukemia_blast, benchmark de modèles
+                et interprétation visuelle avec Grad-CAM.
+              </p>
+              <ul class="tag-list">
+                <li>Classification</li>
+                <li>Images cellulaires</li>
+                <li>Grad-CAM</li>
+              </ul>
+              <div class="project-actions">
+                <a class="btn btn-small" href="https://github.com/amiralfefe" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn-small btn-muted" href="#" aria-label="Démo R.C.C.I.A bientôt disponible">Démo</a>
+                <a class="btn btn-small btn-muted" href="#" aria-label="Détails R.C.C.I.A bientôt disponibles">Détails</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media project-media-school" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">Application data</p>
+              <h3>Ma Réussite</h3>
+              <p>
+                Application autour de la réussite scolaire avec simulateurs Brevet, Bac et Parcoursup,
+                données publiques, machine learning, FastAPI et Streamlit.
+              </p>
+              <ul class="tag-list">
+                <li>Données publiques</li>
+                <li>ML</li>
+                <li>FastAPI</li>
+                <li>Streamlit</li>
+              </ul>
+              <div class="project-actions">
+                <a class="btn btn-small" href="https://github.com/amiralfefe" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn-small btn-muted" href="#" aria-label="Démo Ma Réussite bientôt disponible">Démo</a>
+                <a class="btn btn-small btn-muted" href="#" aria-label="Détails Ma Réussite bientôt disponibles">Détails</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media project-media-breakhis" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="project-body">
+              <p class="project-type">Images médicales</p>
+              <h3>Breast Cancer / BreakHis</h3>
+              <p>
+                Classification d'images médicales avec split patient-aware, benchmark de modèles
+                et analyse d'erreurs pour mieux comprendre les limites du système.
+              </p>
+              <ul class="tag-list">
+                <li>Patient-aware split</li>
+                <li>Benchmark</li>
+                <li>Analyse d'erreurs</li>
+              </ul>
+              <div class="project-actions">
+                <a class="btn btn-small" href="https://github.com/amiralfefe" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="btn btn-small btn-muted" href="#" aria-label="Démo BreakHis bientôt disponible">Démo</a>
+                <a class="btn btn-small btn-muted" href="#" aria-label="Détails BreakHis bientôt disponibles">Détails</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-inner contact-layout">
+        <div>
+          <div class="section-kicker">Contact</div>
+          <h2>Disponible pour échanger autour de projets data, ML ou analytics.</h2>
+          <p>
+            Vous pouvez me contacter par email ou consulter mon profil GitHub pour suivre
+            les prochaines évolutions du portfolio.
+          </p>
+        </div>
+
+        <div class="contact-panel">
+          <a href="mailto:fayssal_abdallah@outlook.fr">fayssal_abdallah@outlook.fr</a>
+          <a href="https://github.com/amiralfefe" target="_blank" rel="noreferrer">github.com/amiralfefe</a>
+          <a href="https://amiralfefe.github.io" target="_blank" rel="noreferrer">amiralfefe.github.io</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>&copy; <span data-year></span> Fayssal ABDALLAH HASSAN</span>
+    <a href="#accueil">Retour en haut</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
