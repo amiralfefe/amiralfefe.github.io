@@ -23,6 +23,18 @@ Portfolio statique en français pour GitHub Pages.
 - Ma Réussite
 - Breast Cancer / BreakHis
 
+## Screenshots prévus
+
+- `assets/rccia-preview.png`
+- `assets/ma-reussite-preview.png`
+- `assets/breakhis-preview.png`
+
+## Prochaines améliorations
+
+- Ajouter screenshots réels
+- Ajouter liens démos Streamlit/Hugging Face
+- Ajouter pages détaillées par projet
+
 ## Publication
 
 Le site fonctionne directement avec GitHub Pages à l'adresse :

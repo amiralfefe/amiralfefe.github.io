@@ -295,6 +295,20 @@ p {
   background: rgba(255, 255, 255, 0.04);
 }
 
+.btn.is-disabled,
+.btn[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
+.btn.is-disabled:hover,
+.btn.is-disabled:focus-visible,
+.btn[aria-disabled="true"]:hover,
+.btn[aria-disabled="true"]:focus-visible {
+  transform: none;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
 .hero-stats {
   position: absolute;
   left: 50%;
@@ -441,6 +455,7 @@ p {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 1;
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
     linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
@@ -450,7 +465,27 @@ p {
 
 .project-media span {
   position: absolute;
+  z-index: 1;
   display: block;
+}
+
+.project-preview {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 180ms ease;
+}
+
+.project-preview.is-loaded {
+  opacity: 0.92;
+}
+
+.project-media.has-preview span {
+  opacity: 0;
 }
 
 .project-media-cells span {
@@ -696,7 +731,7 @@ p {
 
   .hero {
     min-height: auto;
-    padding: 128px 0 0;
+    padding: 108px 0 0;
   }
 
   .hero-overlay {
@@ -706,7 +741,7 @@ p {
   }
 
   .hero-content {
-    padding-bottom: 36px;
+    padding-bottom: 24px;
   }
 
   .hero h1 {
@@ -729,7 +764,7 @@ p {
   }
 
   .hero-stats div {
-    min-height: 78px;
+    min-height: 64px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
   }
